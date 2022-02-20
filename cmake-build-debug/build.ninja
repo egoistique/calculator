@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Kate/Documents/c++$ tasks/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Kate/Documents/c++$ tasks/calc/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Kate\Documents\c++ tasks\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Kate\Documents\c++ tasks" -B"C:\Users\Kate\Documents\c++ tasks\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Kate\Documents\c++ tasks\calc\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Kate\Documents\c++ tasks\calc" -B"C:\Users\Kate\Documents\c++ tasks\calc\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -61,7 +61,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_c___tasks: phony || CMakeFiles/c___tasks.dir
 
-build CMakeFiles/c___tasks.dir/main.cpp.obj: CXX_COMPILER__c___tasks_Debug C$:/Users/Kate/Documents/c++$ tasks/main.cpp || cmake_object_order_depends_target_c___tasks
+build CMakeFiles/c___tasks.dir/main.cpp.obj: CXX_COMPILER__c___tasks_Debug C$:/Users/Kate/Documents/c++$ tasks/calc/main.cpp || cmake_object_order_depends_target_c___tasks
   DEP_FILE = CMakeFiles\c___tasks.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c___tasks.dir
@@ -93,7 +93,7 @@ build c___tasks.exe: CXX_EXECUTABLE_LINKER__c___tasks_Debug CMakeFiles/c___tasks
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Kate\Documents\c++ tasks\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Kate\Documents\c++ tasks\calc\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -110,7 +110,7 @@ build c___tasks: phony c___tasks.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Kate/Documents/c++ tasks/cmake-build-debug
+# Folder: C:/Users/Kate/Documents/c++ tasks/calc/cmake-build-debug
 
 build all: phony c___tasks.exe
 

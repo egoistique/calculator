@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Kate/Documents/c++ tasks/cmake-build-debug",
-		"source" : "C:/Users/Kate/Documents/c++ tasks"
+		"build" : "C:/Users/Kate/Documents/c++ tasks/calc/cmake-build-debug",
+		"source" : "C:/Users/Kate/Documents/c++ tasks/calc"
 	},
 	"version" : 
 	{

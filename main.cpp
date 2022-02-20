@@ -1,17 +1,18 @@
 
 #include <iostream>
 #include <valarray>
+using namespace std;
 
 int main()
 {
     double num1, num2, result;
     char sign;
-    std::cout<<"Write first number: ";
-    std::cin >> num1;
-    std::cout<<"Write arithmetic operation: ";
-    std::cin >> sign;
-    std::cout<<"Write second number: ";
-    std::cin >> num2;
+    cout << "Write first number: \n";
+    cin >> num1;
+    cout << "Write arithmetic operation: \n";
+    cin >> sign;
+    cout << "Write second number: \n";
+    cin >> num2;
     while(getchar() != '\n');
     switch(sign)
     {
@@ -24,11 +25,11 @@ int main()
                 break;
             }
             else {
-                std::cout<<"The second number must not be equal to zero\n";
+                cout << "The second number must not be equal to zero\n";
                 break;
             }
         default:
-            std::cout<<"Wrong action\n";
+            cout << "Wrong action\n";
     }
-    std::cout<<"Answer: "<<result;
+    cout << "Answer: " << result;
 }
